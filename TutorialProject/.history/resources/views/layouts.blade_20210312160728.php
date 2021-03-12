@@ -20,7 +20,7 @@
         @yield('content')
     </main>
     
-    <script src="{{asset('js/app.js')}}"></script>
+    <script src="{{asset('js/app.js')}}"></script> {{-- <- bootstrap and jquery --}}
     <script src="/js/app.js"></script>
 </body>
 </html>

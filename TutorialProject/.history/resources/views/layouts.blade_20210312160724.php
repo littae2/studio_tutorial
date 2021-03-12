@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}"> {{-- <- bootstrap css --}}
     <title>@yield('title','Laravel 5.8 Basics')</title>
     
+    <link href="/css/app.css" rel="stylesheet">
   
   
 </head>
@@ -20,7 +21,7 @@
         @yield('content')
     </main>
     
-    <script src="{{asset('js/app.js')}}"></script>
+    <script src="{{asset('js/app.js')}}"></script> {{-- <- bootstrap and jquery --}}
     <script src="/js/app.js"></script>
 </body>
 </html>
